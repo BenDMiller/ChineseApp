@@ -4,8 +4,6 @@ A Chinese learning app with basic flashcard fucntionality.
 
 I wrote this app to further my understanding and skills in Kotlin for writing apps. In addition, there are very few Chinese learning apps out there that are good, so I wanted to fix that. This is the beginning.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the app running and a walkthrough of the code.}
-
 [Software Demo Video](https://youtu.be/UMlKmF_5EE0)
 
 # Development Environment

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue">
+
+    <TextView
+        android:id="@+id/scorecount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="30pt"
+        android:paddingTop="10pt"
+        android:text="0/8"
+        />
+
+    <!-- ImageView at the top -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:paddingTop="60pt"
+        android:paddingBottom="30pt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wo" />
+
+    <!-- Button 1 on the left side -->
+    <Button
+        android:id="@+id/button1"
+        android:background="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wǒ"
+        android:textSize="25dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20pt"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button 2 on the right side -->
+    <Button
+        android:id="@+id/button2"
+        android:background="@color/green"
+        android:layout_width="wrap_content"
+        android:layout_height=  "wrap_content"
+        android:text="Tā"
+        android:textSize="25dp"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20pt"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/restart"
+        android:background="@color/red"
+        android:layout_width="wrap_content"
+        android:layout_height=  "wrap_content"
+        android:text="Restart"
+        android:textSize="25dp"
+        android:visibility="invisible"
+        android:layout_below="@id/button1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp" />
+
+</RelativeLayout>
